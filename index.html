@@ -14,12 +14,13 @@
         padding: 0px;
         height: 1900px;
         background: url('img/abc.jpg');
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-size: 2400px;
-        background-color: #0e0d0d;
+        background-color: #111111;
         color: rgb(255, 255, 255);
     }
 
+    /* Left logo properties */
     .left {
         position: absolute;
         left: 0px;
@@ -31,8 +32,9 @@
         /* border: 2px solid red; */
     }
 
+    /* use right navbar properties */
     .right {
-        position: absolute;
+        position: fixed;
         right: 34px;
         top: 36px;
         display: block;
@@ -40,11 +42,14 @@
         /* border: 2px solid rgb(60, 0, 255); */
     }
 
+    /* Left uniswap logo */
     .left img {
+        position: fixed;
         width: 63px;
         filter: invert(4%);
     }
 
+    /* Navigation bar */
     .navbar {
         display: inline-block;
     }
@@ -64,6 +69,7 @@
         color: rgb(255, 255, 255);
     }
 
+    /* Launch app botton */
     .btn {
         font-family: sans-serif;
         margin: 0px 0px;
@@ -80,6 +86,7 @@
         background-color: rgb(216, 0, 105);
     }
 
+    /* Uniswap Protocol heading */
     .container {
         margin: 161px 71px;
         padding: 0px 39px;
@@ -91,7 +98,8 @@
         font-size: 75PX;
         font-family: sans-serif;
     }
-
+    
+    /* uniswap discription */
     .para {
         margin: -133px 105px;
         padding: 0px 5px;
@@ -99,10 +107,12 @@
     }
 
     .para p {
+        width: 109%;
         font-size: 33px;
         font-family: sans-serif;
     }
 
+    /* Twitter,Github and Discord logos */
     #para1 {
         margin: 0px -10px;
         padding: 10px 5px;
@@ -139,20 +149,66 @@
         margin: 52px -171px
     }
 
-    h5{
-        display: block;
-        text-align: center;
-        font-family: system-ui;
-        font-size: 70px;
-        margin-top: 70px;
+    /* Middle Record list */
+    .list {
+        margin: 18px 0px;
+        padding: 12px 0px;
     }
 
-    .value p {
-        text-align: center;
-        font-family: system-ui;
-        font-size: 25px;
-        margin: 53px 58px;
-        display: block;
+    .list span {
+        font-size: 68px;
+        font-family: sans-serif;
+    }
+
+    #list1 {
+        margin: 0px 0px;
+        padding: 30px 407px;
+    }
+
+    #list2 {
+        margin: 0px -303px;
+        padding: 0px 0px
+    }
+
+    #list3 {
+        margin: 0px 0px;
+        padding: 14px 450px;
+    }
+
+    #list4 {
+        margin: 0px -316px;
+        padding: 0px 0px;
+    }
+
+    /* Middle Record fonts */
+    .font {
+        margin: -19px 0px;
+        padding: 0px 0px;
+    }
+
+    .font span {
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+
+    #font1 {
+        margin: 0px 0px;
+        padding: 11px 465px;
+    }
+
+    #font2 {
+        margin: 0px -285px;
+        padding: 12px 0px;
+    }
+    
+    #font3 {
+        margin: 0px 0px;
+        padding: 30px 480px;
+    }
+
+    #font4 {
+        margin: 0px -325px;
+        padding: 19px 6px;
     }
 </style>
 
@@ -177,29 +233,41 @@
             <buttton class="btn">Launch App</buttton>
         </div>
     </header>
+
     <div class="container">
         <p>UNISWAP <strong>PROTOCOL</b></p>
     </div>
-    Trade Volume                     All Time Trades                    Integrations                          Community Delegates
+    
     <div class="para">
         <p>Swap, earn, and build on the leading decentralized crypto trading protocol.</p>
     </div>
+
     <div id="para1">
         <a href="https://twitter.com/uniswap/" target="_blank"><img src="img/twitter.png" alt=""></a>
     </div>
+
     <div id="para2">
         <a href="https://github.com/Uniswap/.com" target="_blank"><img src="img/github2.svg" alt=""></a>
     </div>
+
     <div id="para3">
         <a href="https://discord.com/invite/FCfyBSbCU5.com" target="_blank"><img src="img/discord-logo.jpg" alt=""></a>
     </div>
 
-    <div class="value">
-        <h5>$1.4T+ &nbsp;&nbsp;&nbsp;&nbsp;154M+ &nbsp;&nbsp;&nbsp;&nbsp; 300+ &nbsp;&nbsp;&nbsp;&nbsp; 4,400+</h5>
-        
+    <div class="list">
+        <span id="list1">$489B+</span>
+        <span id="list2">71M+</span>
+        <span id="list3">300+</span>
+        <span id="list4">4,400+</span>
     </div>
+
+    <div class="font">
+        <span id="font1">Trade Volume</span>
+        <span id="font2">All Time Trades</span>
+        <span id="font3">Integrations</span>
+        <span id="font4">Community Delegates</span>
     </div>
-    
+
 </body>
 
-</html> 
+</html>
