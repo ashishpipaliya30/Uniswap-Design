@@ -12,11 +12,11 @@
         font-family: sans-serif;
         margin: 0px;
         padding: 0px;
-        height: 1900px;
-        background: url('img/abc.jpg');
+        height: 3000px;
+        /* background: url('img/abc.jpg'); */
         background-repeat: no-repeat;
         background-size: 2400px;
-        background-color: #111111;
+        background-color: #0a0a0a;
         color: rgb(255, 255, 255);
         font-weight: 200;
     }
@@ -59,7 +59,9 @@
     }
 
     .navbar li a {
-        color: rgb(214, 189, 189);
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        color: rgb(185, 158, 158);
         text-decoration: none;
         padding: 27px 26px;
     }
@@ -151,7 +153,7 @@
 
     #para3 img {
         width: 49px;
-        filter: invert(5%);
+        filter: invert(3%);
         padding: 2px 0px;
         margin: 46px -171px
     }
@@ -231,8 +233,12 @@
         font-weight: 200;
     }
 
-    #side:hover {
-        color: rgb(214, 189, 189);
+    #side1 {
+        cursor: pointer;
+    }
+
+    #side1:hover {
+        color: rgb(200, 174, 174);
     }
 
     #side2 {
@@ -262,18 +268,101 @@
         /* opacity: 0.8; */
     }
 
-
-    .side img {
-        height: 364px;
-    width: 782px;
-    margin-top: -357px;
-    padding: 4px 719px;
+    .img-container {
+        position: relative;
+        text-align: right;
     }
 
-    #side5 {
-        margin: 10px 1035px;
-        padding: 0px 0px;
+    .img-container img {
+        width: 39%;
+        height: auto;
+        position: absolute;
+        right: 146px;
+        bottom: 274px;
+        filter: invert(0%);
+        z-index: -1;
     }
+
+    .dev p {
+        padding: 12px 12px;
+        margin: -178px 95px;
+        font-size: 23px;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+
+    .dev {
+        position: absolute;
+        text-align: left;
+        z-index: -1;
+    }
+
+    .dev img {
+        width: 91%;
+        height: auto;
+        left: 14px;
+        bottom: 27px;
+        filter: invert(0%);
+        margin: 201px 105px;
+    }
+
+    #img2 {
+        width: 25%;
+        height: auto;
+        right: 113px;
+        top: -122px;
+        filter: invert(0%);
+        margin: 20px 10px;
+    }
+
+    .container1 {
+        margin: 10px 71px;
+        padding: 153px 57px;
+        width: 12%;
+        margin-top: 590px;
+        font-weight: 200;
+    }
+
+    .container1 button {
+        width: 258%;
+        height: 99px;
+        border: 0.2px solid gray;
+        background-color: rgb(28, 28, 29);
+        border-radius: 25px;
+        color: white;
+        font-size: 28px;
+        margin: -4px -24px;
+    }
+
+    .Container1:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .container2 {
+        margin: 0px 99px;
+    padding: 0px 410px;
+    width: 12%;
+    margin-top: -259px;
+    font-weight: 200
+    } 
+
+    .Container2:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .container2 button {
+        width: 258%;
+        height: 99px;
+        border: 0.2px solid gray;
+        background-color: rgb(28, 28, 29);
+        border-radius: 25px;
+        color: white;
+        font-size: 28px;
+        margin: 0px 241px;
+    }
+
+    
+
 </style>
 
 <body>
@@ -338,9 +427,28 @@
         <p id="side3">DeFi Apps.</p>
         <p id="side4">Developers, traders, and liquidity providers participate together in a financial marketplace that
             is open and accessible to all.</p>
-        <img id="side5" src="img/uniswap img.png" alt="">
     </div>
 
+    <div class="img-container">
+        <img src="img/uni img.png" alt="">
+        <img id="img2" src="img/uni3.png" alt="">
+        <!-- <button class="btn2">Explore all ↗</button> -->
+    </div>
+
+    <div class="dev">
+        <p>DEVELOPERS →</p>
+        <img src="img/uni2.png" alt="">
+    </div>
+
+    <div class="container1">
+        <button>V3 Whitepaper
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↗</button>
+    </div>
+
+    <div class="container2">
+        <button>Github
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↗</button>
+    </div>
 </body>
 
 </html>
