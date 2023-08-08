@@ -12,11 +12,11 @@
         font-family: sans-serif;
         margin: 0px;
         padding: 0px;
-        height: 3000px;
+        height: 3150px;
         /* background: url('img/abc.jpg'); */
         background-repeat: no-repeat;
         background-size: 2400px;
-        background-color: #0a0a0a;
+        background-color: #201e1e;
         color: rgb(255, 255, 255);
         font-weight: 200;
     }
@@ -32,6 +32,10 @@
         display: inline-block;
     }
 
+    .left img:hover {
+        background-color: rgb(143, 95, 95);
+    }
+
     /* use right navbar properties */
     .right {
         position: fixed;
@@ -45,8 +49,9 @@
     .left img {
         position: fixed;
         width: 63px;
-        filter: invert(4%);
+        filter: invert(12%);
     }
+
 
     /* Navigation bar */
     .navbar {
@@ -60,7 +65,7 @@
 
     .navbar li a {
         background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(10px);
+        /* backdrop-filter: blur(10px); */
         color: rgb(185, 158, 158);
         text-decoration: none;
         padding: 27px 26px;
@@ -125,7 +130,7 @@
 
     #para1 img {
         width: 33px;
-        filter: invert(2%);
+        filter: invert(12%);
         padding: 26px 115px;
         margin: 93px 0px;
         font-weight: 200;
@@ -139,7 +144,7 @@
 
     #para2 img {
         width: 72px;
-        filter: invert(0%);
+        filter: invert(7%);
         padding: 0px 0px;
         margin: 18px 2px;
         font-weight: 200;
@@ -153,7 +158,7 @@
 
     #para3 img {
         width: 49px;
-        filter: invert(3%);
+        filter: invert(12%);
         padding: 2px 0px;
         margin: 46px -171px
     }
@@ -176,7 +181,7 @@
 
     #list2 {
         margin: 0px -303px;
-        padding: 0px 0px
+        padding: 0px 0px;
     }
 
     #list3 {
@@ -279,7 +284,7 @@
         position: absolute;
         right: 146px;
         bottom: 274px;
-        filter: invert(0%);
+        filter: invert(1%);
         z-index: -1;
     }
 
@@ -330,7 +335,7 @@
     .container1 button {
         width: 258%;
         height: 99px;
-        border: 1px solid gray;
+        border: 1px solid rgb(64, 64, 64);
         background-color: rgb(28, 28, 29);
         border-radius: 25px;
         color: white;
@@ -353,17 +358,13 @@
     .container2 button {
         width: 258%;
         height: 99px;
-        border: 1px solid gray;
+        border: 1px solid rgb(64, 64, 64);
         background-color: rgb(28, 28, 29);
         border-radius: 25px;
         color: white;
         font-size: 28px;
         margin: 0px 18px;
     }
-
-    /* .protocol {
-        margin: 119px 109px;
-    } */
 
     #pro {
         margin: 119px 109px;
@@ -382,19 +383,125 @@
         width: 42.5%;
     }
 
-    .container3{
-        border: 1px solid white;
-    float: right;
-    width: 30%;
-    right: 12px;
+    .container3 {
+        border: 1px solid rgb(64, 64, 64);
+        float: right;
+        width: 30%;
+        margin: -497px 132px;
+        padding: 25px 130px;
+        border-radius: 27px;
+        background-color: rgb(28, 28, 29);
     }
+
+    #cont3 {
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 6px -98px;
+        cursor: pointer;
+    }
+
+    #cont4 {
+        color: rgb(185, 158, 158);
+        width: 125%;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 18px -96px;
+        cursor: pointer;
+    }
+
+    .container3:hover{
+        background-color:  rgb(35, 35, 35);
+    }
+
+    .container4 {
+        border: 1px solid rgb(64, 64, 64);
+        float: right;
+        width: 30%;
+        margin: -279px 132px;
+        padding: 24px 130px;
+        border-radius: 27px;
+        background-color: rgb(28, 28, 29);
+    }
+
+    #cont5 {
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 6px -98px;
+        cursor: pointer;
+    }
+
+    #cont6 {
+        color: rgb(185, 158, 158);
+        width: 125%;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 18px -96px;
+        cursor: pointer;
+    }
+
+    .container4:hover{
+        background-color:  rgb(35, 35, 35);
+    }
+
+    .container5 {
+        border: 1px solid rgb(64, 64, 64);
+        float: right;
+        width: 30%;
+        margin: -63px 132px;
+        padding: 21px 130px;
+        border-radius: 27px;
+        background-color: rgb(28, 28, 29);
+    }
+
+    #cont7 {
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 6px -98px;
+        cursor: pointer;
+    }
+
+    #cont8 {
+        color: rgb(185, 158, 158);
+        width: 125%;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 18px -96px;
+        cursor: pointer;
+    }
+
+    .container5:hover{
+        background-color: rgb(35, 35, 35);
+    }
+
+    /* .nav1{
+        display: inline-block;
+    }
+
+    .nav1 li {
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .nav1 li a {
+        background-color: rgba(0, 0, 0, 0.5);
+        /* backdrop-filter: blur(10px); */
+        /* color: rgb(185, 158, 158);
+        text-decoration: none;
+        padding: 20px 20px;
+    } */ */
 </style>
 
 <body>
     <header class="header">
         <!-- Left box for logo -->
         <div class="left">
-            <img src="img/uniswap1.png" alt="">
+            <img id="left1" src="img/uniswap1.png" alt="">
         </div>
 
         <!-- Right box for navbar -->
@@ -481,9 +588,35 @@
     </div>
 
     <div class="container3">
-        <p>Governance Forum →</p>
-        <p>Participate by proposing upgrades and discussing the future of the protocol with the Uniswap community.</p>
+        <p id="cont3">Governance Forum &nbsp;↗</p>
+        <p id="cont4">Participate by proposing upgrades and discussing the future of the protocol
+            with the Uniswap
+            community.</p>
     </div>
+
+    <div class="container4">
+        <p id="cont5">Sybil &nbsp;↗</p>
+        <p id="cont6">Vote on offchain proposals with the Snapshot interface. Votes are weighted by the number of UNI delegates.</p>
+    </div>
+
+    <div class="container5">
+        <p id="cont7">Governance Portal  &nbsp;↗</p>
+        <p id="cont8">Vote on official Uniswap governance proposals and view past proposals.</p>
+    </div>
+
+    <!-- <footer>
+        <div class="nav1">
+            <ul>
+                <li><a href="#">Ecosystem</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Govrnance</a></li>
+                <li><a href="#">Devlopers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+        </div> -->
+    </footer>
 </body>
 
 </html>
