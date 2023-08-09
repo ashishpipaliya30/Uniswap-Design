@@ -16,7 +16,7 @@
         /* background: url('img/abc.jpg'); */
         background-repeat: no-repeat;
         background-size: 2400px;
-        background-color: #201e1e;
+        background-color: #1d1b1b;
         color: rgb(255, 255, 255);
         font-weight: 200;
     }
@@ -55,6 +55,7 @@
 
     /* Navigation bar */
     .navbar {
+        /* background-color: #555; */
         display: inline-block;
     }
 
@@ -64,7 +65,7 @@
     }
 
     .navbar li a {
-        background-color: rgba(0, 0, 0, 0.5);
+        /* background-color: rgba(0, 0, 0, 0.5); */
         /* backdrop-filter: blur(10px); */
         color: rgb(185, 158, 158);
         text-decoration: none;
@@ -411,8 +412,8 @@
         cursor: pointer;
     }
 
-    .container3:hover{
-        background-color:  rgb(35, 35, 35);
+    .container3:hover {
+        background-color: rgb(35, 35, 35);
     }
 
     .container4 {
@@ -443,8 +444,8 @@
         cursor: pointer;
     }
 
-    .container4:hover{
-        background-color:  rgb(35, 35, 35);
+    .container4:hover {
+        background-color: rgb(35, 35, 35);
     }
 
     .container5 {
@@ -461,7 +462,7 @@
         font-size: 28px;
         font-family: sans-serif;
         font-weight: 200;
-        margin: 6px -98px;
+        margin: 10px -98px;
         cursor: pointer;
     }
 
@@ -475,26 +476,53 @@
         cursor: pointer;
     }
 
-    .container5:hover{
+    .container5:hover {
         background-color: rgb(35, 35, 35);
     }
 
-    /* .nav1{
-        display: inline-block;
+    .footer {
+        /* background-color: #33 */
+        color: white;
+        padding: 22px 44px;
+        margin: 345px 0px;
+        width: 100%;
     }
 
-    .nav1 li {
-        display: inline-block;
-        font-size: 22px;
+    .bottom-navbar {
+        display: flex;
+        justify-content: left;
     }
 
-    .nav1 li a {
-        background-color: rgba(0, 0, 0, 0.5);
-        /* backdrop-filter: blur(10px); */
-        /* color: rgb(185, 158, 158);
+    .bottom-navbar a {
+        font-family: sans-serif;
+        font-size: 16.5px;
+        font-weight: 200;
+        color: white;
         text-decoration: none;
-        padding: 20px 20px;
-    } */ */
+        padding: 10px 22px;
+    }
+
+    .bottom-navbar a:hover {
+        color: rgb(185, 158, 158);
+    }
+
+    .footer p {
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 17px;
+        color: rgb(185, 158, 158);
+        margin: 27px 21px;
+    }
+
+    #link{
+        margin: 0px -20px;
+        color: white;
+    }
+
+    #link:hover{
+        color: rgb(185, 158, 158);
+    }
 </style>
 
 <body>
@@ -584,7 +612,7 @@
 
     <div class="protocol">
         <p id="pro">PROTOCOL GOVERNANCE →</p>
-        <img src="img/uni4.png" alt="">
+        <img src="img/adit.png" alt="">
     </div>
 
     <div class="container3">
@@ -596,26 +624,29 @@
 
     <div class="container4">
         <p id="cont5">Sybil &nbsp;↗</p>
-        <p id="cont6">Vote on offchain proposals with the Snapshot interface. Votes are weighted by the number of UNI delegates.</p>
+        <p id="cont6">Vote on offchain proposals with the Snapshot interface. Votes are weighted by the number of UNI
+            delegates.</p>
     </div>
 
     <div class="container5">
-        <p id="cont7">Governance Portal  &nbsp;↗</p>
+        <p id="cont7">Governance Portal &nbsp;↗</p>
         <p id="cont8">Vote on official Uniswap governance proposals and view past proposals.</p>
     </div>
 
-    <!-- <footer>
-        <div class="nav1">
-            <ul>
-                <li><a href="#">Ecosystem</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Govrnance</a></li>
-                <li><a href="#">Devlopers</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Jobs</a></li>
-            </ul>
-        </div> -->
+    <footer class="footer">
+        <nav class="bottom-navbar">
+            <a href="#">Ecosystem</a>
+            <a href="#">Community</a>
+            <a href="#">Govrnance</a>
+            <a href="#">Devlopers</a>
+            <a href="#">Blog</a>
+            <a href="#">FAQ</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Trademark Policy</a>
+            <a href="#">Security</a>
+        </nav>
+        <p>Media inquires for Uniswap Labs - Contact</p>
+        <a id="link" href="mailto:media@uniswap.org">media@uniswap.org</a>
     </footer>
 </body>
 
