@@ -284,7 +284,7 @@
         height: auto;
         position: absolute;
         right: 146px;
-        bottom: 274px;
+        bottom: 248px;
         filter: invert(1%);
         z-index: -1;
     }
@@ -299,23 +299,33 @@
         z-index: -1;
     }
 
-    .dev {
-        position: absolute;
-        text-align: left;
-        z-index: -1;
-    }
-
     #dev1:hover {
         color: rgb(185, 158, 158);
     }
 
-    .dev img {
+    /* .dev {
         width: 91%;
-        height: auto;
-        left: 14px;
-        bottom: 27px;
-        filter: invert(0%);
-        margin: 201px 105px;
+  height: auto; /* Adjust as needed */
+    /* display: inline-block;
+  overflow: hidden; */
+    /* } */
+
+
+    .dev img {
+        width: 62.5%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 198px 109px;
+    }
+
+    .dev2 {
+        width: 80%;
+        /* Adjust the image size */
+        /* transition: transform 0.3s ease; */
+
     }
 
     #img2 {
@@ -324,15 +334,15 @@
         right: 113px;
         top: -122px;
         filter: invert(0%);
-        margin: 20px 10px;
+        margin: 15px 12px;
     }
 
     .container1 {
         margin: 10px 71px;
-        padding: 153px 57px;
-        width: 12%;
-        margin-top: 590px;
-        font-weight: 200;
+    padding: 153px 38px;
+    width: 12%;
+    margin-top: -328px;
+    font-weight: 200;
     }
 
     #cont1:hover {
@@ -340,14 +350,14 @@
     }
 
     .container1 button {
-        width: 258%;
-        height: 99px;
+        width: 255%;
+        height: 100px;
         border: 1px solid rgb(64, 64, 64);
         background-color: rgb(28, 28, 29);
-        border-radius: 25px;
+        border-radius: 27px;
         color: white;
         font-size: 28px;
-        margin: -4px -24px;
+        margin: -4px 0px;
     }
 
     .container2 {
@@ -363,14 +373,14 @@
     }
 
     .container2 button {
-        width: 258%;
-        height: 99px;
+        width: 255%;
+        height: 100px;
         border: 1px solid rgb(64, 64, 64);
         background-color: rgb(28, 28, 29);
-        border-radius: 25px;
+        border-radius: 27px;
         color: white;
         font-size: 28px;
-        margin: 0px 18px;
+        margin: 0px 15px;
     }
 
     #pro {
@@ -521,12 +531,13 @@
         margin: 27px 21px;
     }
 
-    #link{
+    #link {
+        text-decoration: none;
         margin: 0px -20px;
         color: white;
     }
 
-    #link:hover{
+    #link:hover {
         color: rgb(185, 158, 158);
     }
 </style>
@@ -603,7 +614,7 @@
 
     <div class="dev">
         <p id="dev1">DEVELOPERS →</p>
-        <img src="img/uni2.png" alt="">
+        <img class="dev2" src="img/uni2.png" alt="">
     </div>
 
     <div class="container1">
@@ -613,7 +624,7 @@
 
     <div class="container2">
         <button id="cont2">Github
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↗</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↗</button>
     </div>
 
     <div class="protocol">
@@ -653,6 +664,7 @@
         </nav>
         <p>Media inquires for Uniswap Labs - Contact</p>
         <a id="link" href="mailto:media@uniswap.org">media@uniswap.org</a>
+        <img src="img/discord-logo.jpg" alt="">
     </footer>
 </body>
 
