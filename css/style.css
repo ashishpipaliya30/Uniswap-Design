@@ -509,7 +509,7 @@ overflow: hidden; */
 }
 
 .bottom-navbar a:hover {
-    color: rgb(185, 158, 158);
+    color: rgb(153, 130, 130);
 }
 
 .footer p {
@@ -517,7 +517,7 @@ overflow: hidden; */
     font-family: sans-serif;
     font-weight: 200;
     font-size: 17px;
-    color: rgb(185, 158, 158);
+    color: rgb(157, 133, 133);
     margin: 27px 21px;
 }
 
