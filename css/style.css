@@ -156,6 +156,7 @@ body {
 
 /* Middle Record list */
 .list {
+    width: 30%;
     margin: 18px 0px;
     padding: 12px 0px;
 }
@@ -261,7 +262,6 @@ body {
     color: rgb(136, 141, 155);
     line-height: 140%;
     font-weight: 200;
-    /* opacity: 0.8; */
 }
 
 .img-container {
@@ -292,14 +292,6 @@ body {
 #dev1:hover {
     color: rgb(185, 158, 158);
 }
-
-/* .dev {
-    width: 91%;
-height: auto; /* Adjust as needed */
-/* display: inline-block;
-overflow: hidden; */
-/* } */
-
 
 .dev img {
     width: 62.5%;
