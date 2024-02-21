@@ -1,9 +1,15 @@
+body{
+    background-color: #1b1b1b;
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #191919;
     color: white;
 }
 
@@ -28,6 +34,7 @@
 }
 
 .navbar li a {
+    font-size: 19px;
     color: white;
     text-decoration: none;
 }
@@ -37,11 +44,24 @@
     cursor: pointer;
 }
 
-.line {
+/* .line {
     width: 25px;
     height: 3px;
     background-color: white;
     margin: 5px 0;
+} */
+
+#launchAppButton {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 122);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#launchAppButton:hover {
+    background-color: rgb(232, 2, 113);
 }
 
 @media screen and (max-width: 768px) {
@@ -72,4 +92,25 @@
         display: block; /* Make menu items full width */
         padding: 10px 0; /* Add padding for better touch experience */
     }
+}
+
+.container {
+    text-align: left;
+    position: absolute;
+    bottom: 90px; /* Adjust as needed */
+    left: 54px; /* Adjust as needed */
+    padding: 26px;
+    font-family: inherit;
+    color: white;
+}
+
+.container h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    width: 90%;
+    font-size: 30px;
+    margin: 0;
 }
