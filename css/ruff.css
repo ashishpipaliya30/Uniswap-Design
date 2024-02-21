@@ -93,66 +93,59 @@ body {
 }
 
 .container p {
-    font-size: 75PX;
+    margin-top: -160px;
+    font-size: 60PX;
     font-family: sans-serif;
 }
 
 /* uniswap discription */
 .para {
-    margin: -139px 105px;
-    padding: 0px 5px;
-    width: 49%;
+    width: 99%;
+    margin-left: 110px;
+    margin-top: -140px;
 }
 
 .para p {
-    width: 109%;
+    width: 50%;
     font-size: 33px;
     font-family: sans-serif;
     line-height: 140%;
     font-weight: 200;
 }
 
-/* Twitter,Github and Discord logos */
-#para1 {
-    margin: 0px -10px;
-    padding: 10px 5px;
-    font-weight: 200;
+/* github, twitter,  */
+.para1 {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    margin-left: 110px;
 }
 
-#para1 img {
-    width: 33px;
-    filter: invert(12%);
-    padding: 26px 115px;
-    margin: 93px 0px;
-    font-weight: 200;
+.para1 a {
+    margin-right: 10px; /* Add margin only to the right to separate icons */
 }
 
-#para2 {
-    margin: -199px 139px;
-    padding: 10px 2px;
-    font-weight: 200;
+.para1 img {
+    width: 40px; /* Set the default width of the icons */
+    height: auto; /* Ensure the aspect ratio of the icons is maintained */
+    aspect-ratio: 2/2;
+    mix-blend-mode: color-dodge;
 }
 
-#para2 img {
-    width: 72px;
-    filter: invert(7%);
-    padding: 0px 0px;
-    margin: 18px 2px;
-    font-weight: 200;
+@media only screen and (max-width: 768px) {
+    #para1 img {
+        width: 30px; /* Reduce the width of the icons on smaller screens */
+    }
+
+    #github {
+        width: 80px; /* Set width for the image with id "github" */
+    }
+
+    #discord {
+        width: 60px; /* Set width for the image with id "discord" */
+    }
 }
 
-#para3 {
-    margin: 71px -45px;
-    padding: 0px 425px;
-    font-weight: 200;
-}
-
-#para3 img {
-    width: 49px;
-    filter: invert(12%);
-    padding: 2px 0px;
-    margin: 46px -171px
-}
 
 /* Middle Record list */
 .list {
